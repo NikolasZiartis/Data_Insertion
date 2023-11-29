@@ -1,1 +1,6 @@
-temp
+
+INSERT INTO [ckaram01].[Roles] (RoleID, RoleName)
+VALUES 
+    (1, 'Admin'),
+    (2, 'PropertyManager'),
+    (3, 'Client');
