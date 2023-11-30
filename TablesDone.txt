@@ -5,3 +5,4 @@ PropertyServices✔
 Restrictions✔
 RoomLuxuries✔ 
 Users✔
+Terms✔
