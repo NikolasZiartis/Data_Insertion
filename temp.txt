@@ -804,3 +804,116 @@ INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Las
 INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (2791, 'michael901', 'Hx8YPkKo', 'Michael', 'Rodriguez', '1980-05-11', 'M', 3, '+4205980848');
 INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (5674, 'joseph476', 'cHu6rNzb', 'Joseph', 'Williams', '1973-08-15', 'F', 3, '+8792611354');
 INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (2204, 'patricia423', 'Q0Lgqa0s', 'Patricia', 'Garcia', '1989-04-19', 'M', 3, '+4763716999');
+
+
+
+
+
+
+
+
+
+
+
+
+NSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (1, 3, '2023-10-17', 0.12, 57.49, 13, 1006);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (2, 4, '2013-02-22', 0.6, 380.36, 32, 1015);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (3, 5, '2011-05-23', 0.13, 428.71, 20, 1026);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (4, 2, '2010-09-27', 0.77, 447.82, 15, 1013);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (5, 1, '2014-01-26', 0.29, 176.3, 64, 1011);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (6, 5, '2019-07-05', 0.41, 374.46, 3, 1019);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (7, 1, '2021-05-01', 0.39, 434.04, 53, 1027);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (8, 1, '2022-08-09', 0.67, 219.61, 7, 1008);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (9, 1, '2022-08-25', 0.64, 493.88, 53, 1024);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (10, 3, '2014-10-23', 0.82, 204.93, 39, 1017);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (11, 1, '2014-09-12', 0.51, 419.74, 75, 1027);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (12, 5, '2019-11-04', 0.53, 135.81, 3, 1016);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (13, 1, '2022-08-27', 0.14, 397.17, 17, 1009);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (14, 3, '2019-12-11', 0.59, 248.53, 23, 1006);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (15, 4, '2016-01-10', 0.21, 51.72, 60, 1010);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (16, 4, '2015-12-10', 0.61, 54.95, 67, 1014);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (17, 3, '2022-09-06', 0.16, 338.0, 11, 1012);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (18, 5, '2022-01-13', 0.39, 282.05, 48, 1025);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (19, 1, '2017-05-10', 0.32, 343.82, 17, 1007);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (20, 1, '2015-01-01', 0.48, 391.88, 40, 1026);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (21, 3, '2019-05-23', 0.39, 473.12, 55, 1019);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (22, 2, '2020-05-03', 0.79, 58.12, 67, 1016);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (23, 2, '2019-10-11', 0.73, 273.12, 9, 1027);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (24, 3, '2018-08-09', 0.84, 201.49, 27, 1009);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (25, 1, '2011-07-02', 0.87, 57.13, 45, 1006);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (26, 5, '2012-12-15', 0.8, 363.65, 36, 1010);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (27, 1, '2010-12-25', 0.86, 399.05, 12, 1018);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (28, 4, '2015-07-10', 0.14, 337.32, 6, 1004);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (29, 1, '2019-01-21', 0.86, 184.82, 68, 1009);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (30, 2, '2017-03-10', 0.8, 84.3, 52, 1026);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (31, 3, '2011-03-14', 0.47, 387.1, 25, 1016);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (32, 4, '2015-10-08', 0.22, 232.3, 30, 1026);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (33, 2, '2016-10-13', 0.61, 152.24, 75, 1006);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (34, 4, '2019-12-03', 0.8, 69.98, 32, 1007);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (35, 1, '2019-03-22', 0.34, 65.88, 18, 1010);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (36, 4, '2018-06-13', 0.21, 441.54, 20, 1024);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (37, 2, '2012-03-19', 0.18, 173.38, 6, 1015);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (38, 4, '2017-05-23', 0.56, 409.84, 32, 1009);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (39, 1, '2017-08-02', 0.71, 146.92, 14, 1016);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (40, 2, '2023-02-14', 0.73, 470.46, 56, 1008);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (41, 2, '2022-11-12', 0.15, 127.74, 14, 1015);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (42, 2, '2021-12-28', 0.42, 172.83, 36, 1013);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (43, 2, '2018-04-25', 0.31, 107.65, 18, 1018);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (44, 1, '2023-01-01', 0.67, 432.36, 13, 1018);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (45, 5, '2018-10-02', 0.55, 67.68, 35, 1023);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (46, 3, '2018-02-22', 0.59, 488.53, 33, 1016);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (47, 1, '2016-09-26', 0.43, 317.48, 26, 1024);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (48, 1, '2018-11-20', 0.85, 481.43, 41, 1024);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (49, 1, '2021-11-28', 0.81, 405.28, 46, 1011);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (50, 3, '2013-12-22', 0.65, 103.16, 2, 1004);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (51, 4, '2021-11-06', 0.66, 458.59, 39, 1026);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (52, 5, '2016-03-16', 0.3, 234.62, 30, 1009);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (53, 3, '2022-06-12', 0.58, 479.46, 60, 1012);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (54, 1, '2012-05-21', 0.32, 64.68, 68, 1027);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (55, 5, '2011-06-18', 0.63, 406.78, 21, 1010);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (56, 4, '2011-06-16', 0.3, 331.59, 68, 1023);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (57, 4, '2010-09-26', 0.68, 436.93, 58, 1020);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (58, 1, '2022-05-02', 0.84, 474.08, 61, 1025);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (59, 1, '2015-10-08', 0.74, 325.88, 33, 1015);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (60, 1, '2022-06-17', 0.13, 67.18, 62, 1012);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (61, 2, '2015-11-23', 0.31, 328.84, 43, 1006);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (62, 5, '2017-05-09', 0.65, 79.4, 32, 1010);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (63, 1, '2020-11-06', 0.39, 230.28, 48, 1024);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (64, 3, '2016-04-19', 0.65, 76.93, 50, 1017);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (65, 4, '2013-04-13', 0.61, 438.62, 37, 1025);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (66, 4, '2012-09-14', 0.8, 395.13, 2, 1027);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (67, 5, '2013-05-11', 0.43, 499.85, 28, 1018);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (68, 4, '2022-09-20', 0.73, 312.66, 17, 1019);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (69, 2, '2017-04-08', 0.74, 485.13, 17, 1018);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (70, 4, '2019-08-26', 0.79, 220.13, 4, 1024);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (71, 3, '2017-07-05', 0.65, 86.59, 41, 1018);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (72, 4, '2019-04-18', 0.83, 432.36, 6, 1025);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (73, 4, '2019-10-01', 0.61, 455.11, 39, 1004);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (74, 1, '2014-07-12', 0.29, 237.81, 49, 1012);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (75, 3, '2020-12-09', 0.21, 330.62, 20, 1025);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (76, 1, '2016-04-07', 0.47, 267.06, 13, 1026);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (77, 3, '2017-12-18', 0.27, 78.39, 59, 1011);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (78, 2, '2023-02-03', 0.28, 161.38, 1, 1024);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (79, 5, '2013-11-26', 0.42, 296.09, 2, 1006);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (80, 1, '2020-04-08', 0.59, 299.26, 4, 1016);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (81, 3, '2011-06-07', 0.8, 90.28, 1, 1021);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (82, 4, '2012-06-03', 0.22, 268.18, 5, 1006);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (83, 3, '2016-10-01', 0.88, 148.53, 42, 1024);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (84, 4, '2019-05-18', 0.27, 245.6, 68, 1016);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (85, 5, '2017-11-05', 0.17, 143.27, 72, 1027);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (86, 3, '2020-10-25', 0.32, 254.57, 27, 1018);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (87, 4, '2014-07-14', 0.82, 395.52, 5, 1020);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (88, 2, '2012-05-25', 0.54, 274.41, 45, 1015);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (89, 5, '2023-06-02', 0.86, 409.35, 5, 1024);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (90, 3, '2020-11-02', 0.33, 165.16, 65, 1008);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (91, 3, '2021-08-28', 0.88, 53.68, 51, 1025);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (92, 2, '2020-02-04', 0.66, 285.43, 40, 1017);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (93, 2, '2015-12-16', 0.86, 416.32, 65, 1020);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (94, 3, '2016-04-23', 0.87, 64.81, 17, 1011);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (95, 2, '2016-06-11', 0.72, 67.81, 35, 1027);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (96, 4, '2013-11-17', 0.83, 133.74, 45, 1006);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (97, 4, '2010-03-27', 0.33, 272.58, 38, 1015);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (98, 3, '2020-01-16', 0.45, 113.94, 68, 1005);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (99, 2, '2021-01-26', 0.25, 70.43, 14, 1019);
+INSERT INTO [ckaram01].[Terms] ([TermID], [PolicyType], [DateOfPayment], [PricePercentage], [Penalty], [RestrictionID], [FoodPlanID]) VALUES (100, 3, '2017-12-15', 0.8, 73.05, 41, 1010);
+
