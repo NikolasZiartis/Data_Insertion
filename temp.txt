@@ -1,6 +1,269 @@
-
 INSERT INTO [ckaram01].[Roles] (RoleID, RoleName)
 VALUES 
     (1, 'Admin'),
     (2, 'PropertyManager'),
     (3, 'Client');
+
+INSERT INTO [FoodPlans] ([Description])
+VALUES 
+    ('All inclusive'),
+    ('(None)'),
+    ('Breakfast'),
+    ('Lunch'),
+    ('Dinner'),
+    ('American'),
+    ('Bed & breakfast'),
+    ('Buffet breakfast'),
+    ('Caribbean breakfast'),
+    ('Continental breakfast'),
+    ('English breakfast'),
+    ('European plan'),
+    ('Family plan'),
+    ('Full board'),
+    ('Full breakfast'),
+    ('Half board/modified American plan'),
+    ('Room only'),
+    ('Self catering'),
+    ('Bermuda'),
+    ('Dinner bed and breakfast plan'),
+    ('Family American'),
+    ('Modified'),
+    ('Breakfast & lunch'),
+    ('Lunch & Dinner');
+
+
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (1, 'CancellationPolicy', 'Please refer to this policy for detailed information on Cancellation.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (2, 'RefundPolicy', 'Understanding our Refund policy will help ensure a pleasant stay for all guests.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (3, 'Check-InPolicy', 'For any queries regarding Check-In, this policy provides all the necessary details.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (4, 'Check-OutPolicy', 'It is important for guests to be familiar with our Check-Out policy.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (5, 'PetPolicy', 'This policy outlines the rules and procedures for Pet at our hotel.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (6, 'ChildrenPolicy', 'Please refer to this policy for detailed information on Children.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (7, 'Extra BedPolicy', 'Understanding our Extra Bed policy will help ensure a pleasant stay for all guests.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (8, 'SmokingPolicy', 'For any queries regarding Smoking, this policy provides all the necessary details.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (9, 'CleaningPolicy', 'It is important for guests to be familiar with our Cleaning policy.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (10, 'NoisePolicy', 'This policy outlines the rules and procedures for Noise at our hotel.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (11, 'DamagePolicy', 'Please refer to this policy for detailed information on Damage.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (12, 'Food and BeveragePolicy', 'Understanding our Food and Beverage policy will help ensure a pleasant stay for all guests.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (13, 'ParkingPolicy', 'For any queries regarding Parking, this policy provides all the necessary details.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (14, 'Wi-FiPolicy', 'It is important for guests to be familiar with our Wi-Fi policy.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (15, 'Swimming PoolPolicy', 'This policy outlines the rules and procedures for Swimming Pool at our hotel.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (16, 'Spa and WellnessPolicy', 'Please refer to this policy for detailed information on Spa and Wellness.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (17, 'Gym and FitnessPolicy', 'Understanding our Gym and Fitness policy will help ensure a pleasant stay for all guests.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (18, 'LaundryPolicy', 'For any queries regarding Laundry, this policy provides all the necessary details.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (19, 'SecurityPolicy', 'It is important for guests to be familiar with our Security policy.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (20, 'PaymentPolicy', 'This policy outlines the rules and procedures for Payment at our hotel.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (21, 'PrivacyPolicy', 'Please refer to this policy for detailed information on Privacy.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (22, 'Eco-Friendly InitiativesPolicy', 'Understanding our Eco-Friendly Initiatives policy will help ensure a pleasant stay for all guests.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (23, 'Event HostingPolicy', 'For any queries regarding Event Hosting, this policy provides all the necessary details.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (24, 'Room ServicePolicy', 'It is important for guests to be familiar with our Room Service policy.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (25, 'Early Check-InPolicy', 'This policy outlines the rules and procedures for Early Check-In at our hotel.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (26, 'Late Check-OutPolicy', 'Please refer to this policy for detailed information on Late Check-Out.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (27, 'Loyalty ProgramPolicy', 'Understanding our Loyalty Program policy will help ensure a pleasant stay for all guests.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (28, 'Covid-19 MeasuresPolicy', 'For any queries regarding Covid-19 Measures, this policy provides all the necessary details.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (29, 'AccessibilityPolicy', 'It is important for guests to be familiar with our Accessibility policy.');
+INSERT INTO PolicyDetails (PolicyID, Name, Info) VALUES (30, 'Currency ExchangePolicy', 'This policy outlines the rules and procedures for Currency Exchange at our hotel.');
+
+
+
+
+--I CHANGE THE SIZE OF PROP.SERVICES
+ALTER TABLE [ckaram01].[PropertyServices]
+ALTER COLUMN [name] nvarchar(200);
+
+
+
+
+
+
+INSERT INTO [ckaram01].[PropertyServices] ([service_id], [name])
+VALUES 
+(1, '24-hour front desk'),
+(5, 'Air conditioning'),
+(7, 'ATM on site'),
+(8, 'Baby sitting'),
+(9, 'BBQ/Picnic area'),
+(14, 'Library'),
+(15, 'Car rental'),
+(16, 'Casino'),
+(22, 'Concierge desk'),
+(26, 'Currency exchange'),
+(33, 'Elevators'),
+(35, 'Fitness Center'),
+(36, 'Express Check-in/Check-out'),
+(41, 'Airport shuttle (free)'),
+(44, 'Game room'),
+(45, 'Souvenir/Gift Shop'),
+(49, 'Heated pool'),
+(50, 'Housekeeping - daily'),
+(53, 'Indoor parking'),
+(54, 'Indoor pool'),
+(55, 'Jacuzzi (Hot Tub)'),
+(60, 'Evening Entertainment'),
+(61, 'Massage'),
+(62, 'Nightclub/DJ'),
+(66, 'Outdoor pool'),
+(76, 'Restaurant'),
+(77, 'Room service'),
+(78, 'Safe'),
+(79, 'Sauna'),
+(81, 'Shoeshine'),
+(83, 'Solarium'),
+(86, 'Turkish/ Steam Bath'),
+(91, 'Tour Desk'),
+(96, 'Dry cleaning'),
+(97, 'Valet parking'),
+(98, 'Vending Machine(snacks)'),
+(116, 'Accessible parking'),
+(122, 'Shops (on site)'),
+(149, 'Grocery shopping service available'),
+(165, 'Bar'),
+(168, 'Laundry'),
+(173, 'Breakfast'),
+(186, 'Street parking'),
+(193, 'Playground'),
+(197, 'Lockers'),
+(198, 'Non-smoking rooms'),
+(202, 'Bicycle rentals'),
+(228, 'Business center'),
+(230, 'Secured parking'),
+(233, 'Tennis court'),
+(234, 'Water Sport Facilities (on site)'),
+(236, 'Golf Course (within 2 miles)'),
+(237, 'Horseback riding'),
+(239, 'Beachfront'),
+(242, 'Heating'),
+(262, 'Shared Kitchen'),
+(269, 'Meeting/Banquet Facilities'),
+(272, 'Skiing'),
+(282, 'Airport shuttle service (surcharge)'),
+(283, 'Baggage Storage'),
+(292, 'Newspaper'),
+(310, 'Hypoallergenic room available'),
+(312, 'All Spaces Non-Smoking (public and private)'),
+(316, 'Electric vehicle charging station'),
+(327, 'Events ticket service'),
+(5050, 'Happy hour'),
+(5051, 'Tour or class about local culture'),
+(5052, 'Cooking class'),
+(5053, 'Live music/performance'),
+(5054, 'Live sports events (broadcast)'),
+(5055, 'Archery'),
+(5056, 'Aerobics'),
+(5057, 'Bingo'),
+(5058, 'Ski Shuttle'),
+(5059, 'Outdoor Swimming Pool (all year)'),
+(5060, 'Outdoor Swimming Pool (seasonal)'),
+(5061, 'Indoor Swimming Pool (all year)'),
+(5062, 'Indoor Swimming Pool (seasonal)'),
+(5063, 'Swimming pool toys'),
+(5064, 'Rooftop pool'),
+(5065, 'Infinity pool'),
+(5066, 'Pool with view'),
+(5067, 'Salt-water pool'),
+(5068, 'Plunge pool'),
+(5069, 'Pool bar'),
+(5070, 'Shallow end pool'),
+(5071, 'Pool cover'),
+(5072, 'Fence around pool'),
+(5073, 'Airport Shuttle (surcharge)'),
+(5074, 'Property is wheel chair accessible'),
+(5075, 'Toilet with grab rails'),
+(5076, 'Higher level toilet'),
+(5077, 'Low bathroom sink'),
+(5078, 'Bathroom emergency pull cord'),
+(5079, 'Visual aids: Braille'),
+(5080, 'Visual aids: Tactile Signs'),
+(5081, 'Auditory Guidance'),
+(5082, 'Back massage'),
+(5083, 'Neck massage'),
+(5084, 'Foot massage'),
+(5085, 'Couples massage'),
+(5086, 'Head massage'),
+(5087, 'Hand massage'),
+(5088, 'Full body massage'),
+(5089, 'Facial treatments'),
+(5090, 'Waxing services'),
+(5091, 'Make up services'),
+(5092, 'Hair treatments'),
+(5093, 'Manicure'),
+(5094, 'Pedicure'),
+(5095, 'Hair cut'),
+(5096, 'Hair colouring'),
+(5097, 'Hair styling'),
+(5098, 'Body Treatments'),
+(5099, 'Body scrub'),
+(5100, 'Body wrap'),
+(5101, 'Light therapy'),
+(5102, 'Shuttle Service (free)'),
+(5103, 'Shuttle Service (surcharge)'),
+(5104, 'Swimming pool'),
+(5105, 'Property removed all, or never offered, single-use plastic toiletries.'),
+(5106, 'Towels Changed Upon Request'),
+(5107, '24-hour security'),
+(5108, 'Security alarm'),
+(5109, 'Smoke alarms'),
+(5110, 'CCTV in common areas'),
+(5111, 'CCTV outside property'),
+(5112, 'Fire extinguishers'),
+(5113, 'Key access'),
+(5114, 'Key card access'),
+(5115, 'Carbon monoxide detector'),
+(5116, 'Carbon monoxide source'),
+(5117, 'Property removed all, or never offered, plastic stirrers.'),
+(5118, 'Property removed all, or never offered, plastic straws.'),
+(5119, 'Property removed all, or never offered, plastic cups.'),
+(5120, 'Property removed all, or never offered, plastic water bottles.'),
+(5121, 'Property removed all, or never offered, plastic bottles for non-water drinks.'),
+(5122, 'Property removed all, or never offered, plastic cutlery and tableware.'),
+(5123, 'Keycard for room electricity'),
+(5124, 'Opt-out from daily room cleaning'),
+(5125, 'Refillable water stations'),
+(5126, 'Bike rental'),
+(5127, 'Bike parking'),
+(5128, 'Use of cleaning chemicals that are effective against Coronavirus'),
+(5129, 'Linens, towels and laundry washed in accordance with local authorities guidelines'),
+(5130, 'Guest accommodation is disinfected between stays'),
+(5131, 'Guest accommodation sealed after cleaning'),
+(5132, 'Physical distancing in dining areas'),
+(5133, 'In-room dining options available'),
+(5134, 'Staff follow all safety protocols as directed by local authorities'),
+(5135, 'Shared stationery such as printed menus, magazines, pens, and paper removed'),
+(5136, 'Hand sanitiser in guest accommodation and key areas'),
+(5137, 'Process in place to check health of guests'),
+(5138, 'First aid kit available'),
+(5139, 'Contactless check-in/out'),
+(5140, 'Cashless payment available'),
+(5141, 'Physical distancing following guidelines from local authorities'),
+(5142, 'Mobile app for room service'),
+(5143, 'Screens or physical barriers placed between staff and guests in appropriate areas'),
+(5144, 'Property is cleaned by professional cleaning companies'),
+(5145, 'All plates, cutlery, glasses and other tableware have been sanitised'),
+(5146, 'Guest accommodation cleaning can be avoided on request'),
+(5147, 'Invoices Provided'),
+(5148, 'Breakfast takeaway containers'),
+(5149, 'Delivered food is securely covered'),
+(5150, 'Access to health care professionals'),
+(5151, 'Thermometers for guests provided by property'),
+(5152, 'Face masks for guests available'),
+(5153, 'Wild (non-domesticated) animals are not harmed at the property'),
+(5154, 'Recycling bins are available to guests and waste is recycled'),
+(5155, 'At least 80% of food is sourced from your region'),
+(5156, 'At least 80% of lighting uses energy-efficient LED bulbs'),
+(5157, 'Only using water-efficient toilets'),
+(5158, 'Only using water-efficient showers'),
+(5159, 'All windows are double-glazed'),
+(5160, 'Food waste policy in place that includes education, food waste prevention, reduction, recycling, and disposal'),
+(5161, 'Investing a percentage of revenue back into community projects or sustainability projects'),
+(5162, 'Compensate for at least 10% of total annual carbon emissions by purchasing certified carbon offsets'),
+(5163, 'Tours and activities organized by local guides and businesses offered'),
+(5164, 'Vegetarian options available at the property'),
+(5165, 'Vegan options available at the property'),
+(5166, 'Green spaces such as gardens/rooftop gardens on the property'),
+(5167, 'At least 80% of the food provided is organic'),
+(5168, '100% renewable electricity is used throughout the property'),
+(5169, 'Local artists are offered a platform to display their talents'),
+(5170, 'Provide guests with information regarding local ecosystems, heritage and culture, as well as visitor etiquette'),
+(6000, 'Lunch'),
+(6001, 'Dinner')
+
+
