@@ -4,3 +4,4 @@ PolicyDetails✔
 PropertyServices✔
 Restrictions✔
 RoomLuxuries✔ 
+Users✔
