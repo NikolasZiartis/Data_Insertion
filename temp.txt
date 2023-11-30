@@ -267,3 +267,436 @@ VALUES
 (6001, 'Dinner')
 
 
+
+
+
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (1, 21, 22);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (2, 3, 2);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (3, 7, 6);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (4, 14, 3);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (5, 3, 13);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (6, 2, 5);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (7, 10, 24);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (8, 9, 5);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (9, 5, 24);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (10, 3, 28);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (11, 27, 3);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (12, 4, 25);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (13, 22, 4);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (14, 26, 6);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (15, 7, 21);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (16, 1, 13);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (17, 13, 14);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (18, 27, 12);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (19, 29, 15);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (20, 4, 11);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (21, 5, 19);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (22, 24, 9);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (23, 8, 17);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (24, 19, 21);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (25, 9, 25);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (26, 7, 18);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (27, 10, 22);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (28, 7, 2);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (29, 25, 13);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (30, 27, 17);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (31, 7, 5);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (32, 9, 2);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (33, 29, 28);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (34, 8, 19);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (35, 19, 17);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (36, 5, 6);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (37, 10, 3);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (38, 30, 15);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (39, 11, 15);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (40, 14, 27);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (41, 18, 29);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (42, 1, 14);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (43, 21, 11);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (44, 25, 4);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (45, 9, 8);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (46, 7, 12);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (47, 8, 12);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (48, 12, 21);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (49, 23, 16);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (50, 16, 17);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (51, 6, 8);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (52, 2, 8);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (53, 28, 29);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (54, 16, 12);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (55, 21, 12);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (56, 21, 3);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (57, 19, 20);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (58, 30, 12);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (59, 24, 13);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (60, 8, 5);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (61, 21, 26);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (62, 11, 14);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (63, 30, 7);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (64, 23, 13);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (65, 30, 30);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (66, 1, 18);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (67, 15, 21);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (68, 26, 19);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (69, 5, 13);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (70, 6, 19);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (71, 27, 13);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (72, 21, 13);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (73, 1, 24);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (74, 16, 11);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (75, 6, 22);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (76, 18, 4);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (77, 7, 19);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (78, 12, 27);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (79, 21, 19);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (80, 5, 14);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (81, 19, 15);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (82, 7, 3);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (83, 3, 18);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (84, 30, 7);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (85, 23, 29);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (86, 8, 8);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (87, 17, 30);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (88, 25, 7);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (89, 16, 1);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (90, 13, 9);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (91, 1, 26);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (92, 10, 20);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (93, 9, 20);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (94, 2, 26);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (95, 28, 12);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (96, 2, 28);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (97, 11, 18);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (98, 2, 10);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (99, 25, 23);
+
+INSERT INTO Restrictions (RestrictionID, MinimumNumberOfDays, MinimumAccDay) VALUES (100, 17, 27);
+
+
+
+--I CHANGE THE SIZE OF RoomLuxuries(DESCRIPTION)
+
+
+ALTER TABLE [ckaram01].[RoomLuxuries]
+ALTER COLUMN [description] nvarchar(200);
+
+
+INSERT INTO [ckaram01].[RoomLuxuries] ([luxury_id], [name], [description]) VALUES
+(2, 'Air conditioning', 'Ensures a comfortable room temperature, regardless of outside weather.'),
+(3, 'Alarm clock', 'Helps guests wake up at their desired time with an alarm function.'),
+(5, 'AM/FM radio', 'Provides access to AM/FM radio stations for music and news.'),
+(7, 'Terrace', 'A private outdoor space for relaxation and enjoyment of views.'),
+(8, 'Barbeque grills', 'Allows guests to cook outdoors with barbeque facilities.'),
+(9, 'Bath tub with spray jets', 'A luxurious bathtub equipped with relaxing spray jets.'),
+(10, 'Bathrobe', 'A comfortable bathrobe for use during the stay.'),
+(11, 'Bathroom amenities (free toiletries)', 'Includes essential toiletries provided for free.'),
+(13, 'Bathtub', 'A standard bathtub for a relaxing soak.'),
+(14, 'Bathtub only', 'Features a bathtub without a separate shower area.'),
+(15, 'Bath or Shower', 'Room equipped with either a bath or a shower facility.'),
+(16, 'Bidet', 'A bathroom fixture for enhanced hygiene.'),
+(18, 'Cable television', 'Television with access to a variety of cable channels.'),
+(19, 'Coffee/Tea maker', 'Enables guests to make their own coffee or tea in-room.'),
+(20, 'Color television', 'A color television for entertainment.'),
+(21, 'Computer', 'A computer provided for guest use.'),
+(22, 'Connecting rooms', 'Rooms with a connecting door, ideal for families or groups.'),
+(25, 'Cordless phone', 'A convenient cordless phone for in-room use.'),
+(28, 'Desk', 'A workspace with a desk for writing or laptop use.'),
+(29, 'Desk with lamp', 'A desk equipped with a lamp for better lighting.'),
+(32, 'Dishwasher', 'An in-room dishwasher for convenience.'),
+(38, 'Fax machine', 'A fax machine available for guest use.'),
+(41, 'Fireplace', 'A cozy fireplace to enhance the room ambiance.'),
+(46, 'Free movies/video', 'Access to a selection of movies and videos at no extra charge.'),
+(47, 'Full kitchen', 'A fully equipped kitchen for self-catering.'),
+(49, 'Grecian tub', 'A Grecian-style tub for a unique bathing experience.'),
+(50, 'Hairdryer', 'A hairdryer provided for guest use.'),
+(55, 'Iron (ironing facilities)', 'Ironing facilities to keep clothes wrinkle-free.'),
+(56, 'Ironing board', 'An ironing board to complement the iron.'),
+(57, 'Whirpool', 'A whirlpool bath for relaxation and hydrotherapy.'),
+(58, 'Whirlpool', 'A luxurious whirlpool tub for relaxation and massage.'),
+(59, 'Kitchen', 'A fully-equipped kitchen for convenient in-room meal preparation.'),
+(60, 'Kitchen supplies', 'Includes all necessary supplies for cooking and dining.'),
+(61, 'Kitchenette', 'A small, functional kitchen area for basic cooking needs.'),
+(63, 'Laptop', 'A laptop provided for guest use.'),
+(64, 'Large desk', 'A spacious desk for working or studying.'),
+(68, 'Microwave', 'A microwave for quick and easy meal heating.'),
+(69, 'Minibar', 'A well-stocked minibar with a selection of drinks and snacks.'),
+(72, 'Multi-line phone', 'A phone with multiple lines for convenient communication.'),
+(77, 'Oven', 'A full-sized oven for baking and cooking.'),
+(78, 'Pay per view movies on TV', 'Access to pay-per-view movies on the in-room TV.'),
+(80, 'Phone in bathroom', 'A convenient phone located in the bathroom.'),
+(81, 'Plates and bowls', 'A selection of plates and bowls available for use.'),
+(85, 'Private bathroom', 'An exclusive bathroom for personal use.'),
+(88, 'Refrigerator', 'A refrigerator to keep food and drinks cold.'),
+(89, 'Refrigerator with ice maker', 'A refrigerator equipped with an ice maker.'),
+(92, 'Safe', 'A secure safe for storing valuables.'),
+(94, 'Separate closet', 'A separate closet for clothing and storage.'),
+(97, 'Shower only', 'A bathroom with a shower but no bathtub.'),
+(98, 'Silverware/utensils', 'A set of silverware and utensils for dining.'),
+(99, 'Sitting area', 'A designated area with seating for relaxation.'),
+(103, 'Speaker phone', 'A phone with a speaker function for hands-free calls.'),
+(105, 'Stove', 'A stove for cooking meals.'),
+(107, 'Telephone', 'A telephone for making calls.'),
+(108, 'Telephone for hearing impaired', 'A telephone designed for the hearing impaired.'),
+(115, 'VCR movies', 'A selection of movies available on VCR.'),
+(117, 'Video games', 'A variety of video games for entertainment.'),
+(119, 'Wake-up calls', 'A service to receive wake-up calls at a specified time.'),
+(126, 'Air conditioning individually controlled in room', 'Individually controlled air conditioning for personalized comfort.'),
+(127, 'Bathtub & whirlpool separate', 'A separate bathtub and whirlpool for diverse bathing experiences.'),
+(129, 'CD player', 'A CD player for listening to music.'),
+(133, 'Desk with electrical outlet', 'A desk with a built-in electrical outlet for convenient device charging.'),
+(138, 'Marble bathroom', 'A luxurious marble bathroom for a premium experience.'),
+(139, 'List of movie channels available', 'A list of available movie channels on the room TV.'),
+(141, 'Oversized bathtub', 'A larger-than-standard bathtub for extra comfort.'),
+(142, 'Shower', 'A stand-alone shower.'),
+(144, 'Soundproofed room', 'A room designed to be soundproof for added peace and quiet.'),
+(146, 'Tables and chairs', 'Furnished with tables and chairs for dining or working.'),
+(147, 'Two-line phone', 'A phone with two lines for added convenience.'),
+(149, 'Washer/dryer', 'In-room washer and dryer for laundry needs.'),
+(155, 'Separate tub and shower', 'Both a bathtub and a separate shower area.'),
+(157, 'Ceiling fan', 'A ceiling fan for additional room ventilation.'),
+(158, 'CNN available', 'Access to CNN channel on the room TV.'),
+(162, 'Closets in room', 'Ample closet space for storage.'),
+(163, 'DVD player', 'A DVD player for watching movies.'),
+(164, 'Mini-refrigerator', 'A compact refrigerator for storing small items.'),
+(166, 'Self-controlled heating/cooling system', 'A heating/cooling system controlled by the guest.'),
+(167, 'Toaster', 'A toaster for preparing breakfast items.'),
+(193, 'Shared bathroom', 'A bathroom shared with other guests or rooms.'),
+(194, 'Telephone TDD/Textphone', 'A TDD/Textphone for the hearing impaired.'),
+(210, 'Satellite television', 'Television with satellite channels for diverse viewing options.'),
+(214, 'iPod docking station', 'A docking station for charging and playing music from an iPod.'),
+(217, 'Satellite radio', 'Access to a variety of satellite radio stations.'),
+(218, 'Video on demand', 'A service offering a selection of videos on demand.'),
+(220, 'Gulf view', 'A room with a view of the gulf.'),
+(223, 'Mountain view', 'A room offering views of the mountains.'),
+(224, 'Ocean view', 'A room with a view of the ocean.'),
+(228, 'Slippers', 'Comfortable slippers provided for in-room use.'),
+(230, 'Chair provided with desk', 'A comfortable chair accompanying the desk.'),
+(234, 'Luxury linen type', 'High-quality linens for a luxurious feel.'),
+(245, 'Private pool', 'A private pool for exclusive use by the guest.'),
+(246, 'High Definition (HD) Flat Panel Television - 32 inches or greater', 'A large HD flat-panel television for an enhanced viewing experience.'),
+(251, 'TV', 'A television for viewing entertainment.'),
+(254, 'Video game player', 'A video game player for gaming fun.'),
+(256, 'Dining room seats', 'Seats in the dining room for meals.'),
+(258, 'Mobile/cellular phones', 'Mobile phone provided for guest use.'),
+(259, 'Movies', 'A selection of movies available for viewing.'),
+(260, 'Multiple closets', 'Several closets available for ample storage.'),
+(262, 'Safe large enough to accommodate a laptop', 'A safe specifically designed to fit a laptop.'),
+(265, 'Bluray player', 'A Blu-ray player for high-definition movie playback.'),
+(268, 'Non-allergenic room', 'A room designed to minimize allergens.'),
+(270, 'Seating area with sofa/chair', 'A comfortable seating area with a sofa or chair.'),
+(271, 'Separate toilet area', 'A separate area for the toilet, distinct from the bathroom.'),
+(273, 'Widescreen TV', 'A widescreen TV for a superior viewing experience.'),
+(276, 'Separate tub or shower', 'Either a separate tub or a separate shower.'),
+(280, 'Plunge pool', 'A small, deep pool for relaxation.'),
+(5001, 'Coffee/Tea maker', 'A convenient appliance to brew coffee or tea in the room.'),
+(5003, 'Mini-bar', 'A small refrigerator stocked with drinks and snacks.'),
+(5004, 'Shower', 'A dedicated shower area for bathing.'),
+(5005, 'Bath', 'A bathtub for a relaxing soak.'),
+(5006, 'Safe Deposit Box', 'A secure place to store valuables during the stay.'),
+(5007, 'Pay-per-view Channels', 'Access to on-demand, pay-per-view TV channels.'),
+(5008, 'TV', 'A television set for viewing various channels.'),
+(5009, 'Telephone', 'A landline phone for in-room calls.'),
+(5010, 'Fax', 'A machine to send and receive documents via telephone line.'),
+(5011, 'Airconditioning', 'A system to control the temperature and air quality in the room.'),
+(5012, 'Hair Dryer', 'A device to quickly dry hair.'),
+(5013, 'Wake Up Service/Alarm-clock', 'Service to assist guests in waking up at a specified time.'),
+(5014, 'Hot Tub', 'A tub with hot water and jets for relaxation.'),
+(5015, 'Clothing Iron', 'An iron to remove wrinkles from clothes.'),
+(5016, 'Kitchenette', 'A compact area equipped with basic cooking facilities.'),
+(5017, 'Balcony', 'An outdoor area attached to the room for fresh air and views.'),
+(5018, 'Trouser Press', 'A device to remove creases from trousers.'),
+(5019, 'Bath-robe', 'A robe provided for use after bathing or showering.'),
+(5020, 'Spa Bath', 'A bath designed for hydrotherapy and relaxation.'),
+(5021, 'Radio', 'A device to listen to radio broadcasts.'),
+(5022, 'Refrigerator', 'An appliance to keep food and drinks cold.'),
+(5023, 'Desk', 'A piece of furniture for writing or using a computer.'),
+(5024, 'Shared Bathroom', 'A bathroom used by more than one guest room.'),
+(5025, 'Ironing facilities', 'Equipment provided for ironing clothes.'),
+(5026, 'Seating area', 'A space in the room to sit and relax.'),
+(5027, 'Free Toiletries', 'Complimentary bathroom products provided for guests.'),
+(5028, 'DVD-Player', 'A device to play DVD movies.'),
+(5029, 'CD-Player', 'A device to play music CDs.'),
+(5030, 'Fan', 'A device to circulate air and cool the room.'),
+(5031, 'Toilet', 'The rooms private restroom facility.'),
+(5032, 'Microwave', 'An appliance to heat or cook food quickly.'),
+(5033, 'Dishwasher', 'A machine for automatically washing dishes.'),
+(5034, 'Washing machine', 'A machine to wash laundry.'),
+(5035, 'Video', 'A system to play video content.'),
+(5036, 'Video Games', 'Electronic games available for entertainment.'),
+(5037, 'Patio', 'An outdoor space for relaxation, typically at ground level.'),
+(5038, 'Bathroom', 'A private room for bathing and using the toilet.'),
+(5039, 'Extra long beds (> 2 meter)', 'Beds that are longer than the standard length.'),
+(5040, 'Heating', 'A system to warm the room.'),
+(5041, 'Dressing room', 'A separate area for changing clothes.'),
+(5042, 'Guest toilet', 'An additional toilet separate from the main bathroom.'),
+(5043, 'Slippers', 'Comfortable footwear provided for indoor use.'),
+(5044, 'Satellite Channels', 'TV channels received via satellite.'),
+(5045, 'Kitchen', 'A fully equipped area for cooking and meal preparation.'),
+(5068, 'Cable channels', 'TV channels provided via cable.'),
+(5069, 'Bath or Shower', 'The room includes either a bath or a shower.'),
+(5070, 'Carpeted Floor', 'The rooms floor is covered with carpet.'),
+(5071, 'Fireplace', 'A structure in the room for containing a fire.'),
+(5072, 'Additional Toilet', 'An extra toilet apart from the main bathroom.'),
+(5073, 'Interconnecting Room(s) available', 'Rooms with a connecting door for larger groups or families.'),
+(5074, 'Laptop Safe Box', 'A safe specifically designed to store laptops securely.'),
+(5075, 'Flat-screen TV', 'A modern TV with a flat screen for better viewing.'),
+(5076, 'Private Entrance', 'A separate entrance for the room or suite.'),
+(5077, 'Sofa', 'A comfortable couch provided in the room.'),
+(5079, 'Soundproofing', 'Features to reduce noise from outside and other rooms.'),
+(5080, 'Tiled / Marble floor', 'The rooms floor is finished with tiles or marble.'),
+(5081, 'View', 'The room offers a scenic view from the window.'),
+(5082, 'Wooden / Parquet floor', 'The rooms floor is made of wood or parquet.'),
+(5083, 'Wake Up Service', 'Service to help guests wake up at a specified time.'),
+(5084, 'Alarm Clock', 'A clock with an alarm to wake up the guest.'),
+(5085, 'Dining Area', 'A designated area in the room for eating meals.'),
+(5086, 'Electric Kettle', 'A kettle for boiling water, often used for making tea or coffee.'),
+(5087, 'Executive Lounge Access', 'Access to a private lounge for executive guests.'),
+(5088, 'iPod Docking Station', 'A station for charging and playing music from an iPod.'),
+(5089, 'Kitchenware', 'Utensils and dishes provided for cooking and eating.'),
+(5090, 'Mosquito Net', 'A net to protect against mosquitoes while sleeping.'),
+(5091, 'Towels/Linens at surcharge', 'Towels and linens available for an extra charge.'),
+(5092, 'Sauna', 'A small room used as a hot-air or steam bath for cleaning and refreshing.'),
+(5093, 'Private Pool', 'A swimming pool for the exclusive use of the guest.'),
+(5094, 'Tumble dryer (machine)', 'A machine for drying clothes after washing.'),
+(5095, 'Wardrobe/Closet', 'A piece of furniture for storing clothes.'),
+(5096, 'Oven', 'An appliance for baking or roasting food.'),
+(5097, 'Stove', 'A cooking appliance with burners for heating or cooking food.'),
+(5098, 'Toaster', 'A small appliance for toasting bread.'),
+(5099, 'Barbecue', 'Facilities for cooking food over an open fire.'),
+(5100, 'Bidet', 'A low basin for washing the lower part of the body.'),
+(5101, 'Computer', 'A personal computer provided for guest use.'),
+(5102, 'iPad', 'An iPad provided for guest use.'),
+(5103, 'Game Console', 'A video game console for playing electronic games.'),
+(5104, 'Game Console - Xbox 360', 'An Xbox 360 video game console for guest entertainment.'),
+(5105, 'Game Console - PS2', 'A PlayStation 2 console for video gaming.'),
+(5106, 'Game Console - PS3', 'A PlayStation 3 console for playing video games.'),
+(5107, 'Game Console - Nintendo Wii', 'A Nintendo Wii console for interactive gaming.'),
+(5108, 'Sea View', 'The room offers a view of the sea.'),
+(5109, 'Lake View', 'The room provides a view of a nearby lake.'),
+(5110, 'Garden View', 'The room overlooks a garden.'),
+(5111, 'Pool View', 'A view of the swimming pool from the room.'),
+(5112, 'Mountain View', 'The room features a view of the mountains.'),
+(5113, 'Landmark View', 'The room has a view of a notable landmark.'),
+(5114, 'Laptop', 'A laptop provided for the use of guests.'),
+(5115, 'Allergy-Free', 'The room is designed to minimize allergens.'),
+(5116, 'Cleaning products', 'Products for cleaning are provided in the room.'),
+(5117, 'Electric blankets', 'Blankets with built-in heating for extra warmth.'),
+(5118, 'Additional Bathroom', 'An extra bathroom apart from the main one.'),
+(5119, 'Blu-ray player', 'A Blu-ray player for high-definition video playback.'),
+(5120, 'Coffee Machine', 'A machine for brewing coffee.'),
+(5121, 'City View', 'A view of the city from the room.'),
+(5122, 'River View', 'The room offers a view of a nearby river.'),
+(5123, 'Terrace', 'An outdoor area for relaxation and enjoyment of the outdoors.'),
+(5124, 'Towels', 'Towels provided for bathing or showering.'),
+(5125, 'Linen', 'Bed linen provided for the beds.'),
+(5126, 'Dining table', 'A table provided for dining.'),
+(5127, 'Children highchair', 'A highchair for young children to eat at the table.'),
+(5129, 'Outdoor furniture', 'Furniture provided for use in the outdoor area.'),
+(5130, 'Outdoor dining area', 'A designated area for dining outdoors.')
+
+
+
+
+
+
+
+
