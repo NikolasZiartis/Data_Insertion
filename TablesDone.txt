@@ -18,6 +18,6 @@ Product✔
 PropertyChanges --entha to simplirosoume
 Reservations 
 Reviews
-Stock
+Stock✔
 StockRestrictions
 TempUnavailableProducts
