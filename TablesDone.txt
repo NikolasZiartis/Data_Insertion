@@ -13,3 +13,4 @@ RoomType✔
 JunctionRoomLuxuries✔
 PassedReservations --entha to simplirosoume
 PendingPropertyManagers --entha to simplirosoume
+PriceCategory✔
