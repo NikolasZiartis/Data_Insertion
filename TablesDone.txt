@@ -9,3 +9,4 @@ Terms✔
 Property✔
 JunctionPolicyDeatails✔
 JunctionPropertyServices✔
+RoomType✔
