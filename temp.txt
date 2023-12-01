@@ -1232,3 +1232,216 @@ INSERT INTO [ckaram01].[JunctionPropertyServices] ([junction_PS_ID], [property_i
 INSERT INTO [ckaram01].[JunctionPropertyServices] ([junction_PS_ID], [property_id], [service_id]) VALUES (98, 98, 86)
 INSERT INTO [ckaram01].[JunctionPropertyServices] ([junction_PS_ID], [property_id], [service_id]) VALUES (99, 99, 5124)
 INSERT INTO [ckaram01].[JunctionPropertyServices] ([junction_PS_ID], [property_id], [service_id]) VALUES (100, 100, 5088)
+
+
+
+
+
+ALTER TABLE [ckaram01].[RoomType]
+ALTER COLUMN [TypeName] nvarchar(100); 
+
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (1, 1, 20, 3, 59, 'Twin (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (2, 2, 88, 3, 2, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (3, 2, 18, 6, 82, 'Sofa Bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (4, 1, 65, 2, 14, 'Sofa Bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (5, 1, 27, 1, 97, 'Single (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (6, 2, 73, 8, 13, 'Single (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (7, 1, 87, 8, 59, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (8, 1, 45, 10, 90, 'Large Double [Queen size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (9, 1, 44, 2, 43, 'Futon Mat')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (10, 2, 35, 5, 48, 'Twin (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (11, 2, 66, 3, 100, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (12, 1, 59, 5, 17, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (13, 2, 46, 2, 50, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (14, 2, 60, 3, 18, 'Double (Bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (15, 1, 99, 10, 33, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (16, 2, 88, 3, 86, 'Double (Bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (17, 2, 51, 8, 20, 'Large Double [Queen size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (18, 2, 99, 8, 61, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (19, 2, 17, 4, 49, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (20, 1, 88, 8, 37, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (21, 1, 92, 8, 41, 'Large Double [Queen size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (22, 2, 100, 5, 59, 'Single (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (23, 2, 35, 3, 12, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (24, 1, 20, 10, 100, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (25, 2, 66, 1, 56, 'Double (Bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (26, 2, 64, 10, 78, 'Double (Bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (27, 2, 53, 10, 81, 'Double (Bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (28, 1, 77, 2, 89, 'Twin (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (29, 2, 27, 10, 8, 'Sofa Bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (30, 1, 69, 9, 35, 'Large Double [Queen size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (31, 2, 31, 3, 4, 'Futon Mat')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (32, 1, 89, 7, 97, 'Large Double [Queen size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (33, 1, 44, 2, 33, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (34, 2, 46, 10, 86, 'Single (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (35, 2, 66, 6, 92, 'Single (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (36, 1, 44, 1, 87, 'Futon Mat')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (37, 1, 93, 6, 14, 'Sofa Bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (38, 1, 73, 1, 48, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (39, 1, 24, 4, 90, 'Futon Mat')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (40, 1, 87, 8, 85, 'Large Double [Queen size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (41, 2, 90, 7, 49, 'Large Double [Queen size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (42, 2, 83, 1, 17, 'Twin (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (43, 1, 47, 3, 82, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (44, 1, 42, 2, 65, 'Single (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (45, 1, 39, 9, 100, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (46, 2, 33, 5, 60, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (47, 1, 76, 3, 80, 'Double (Bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (48, 2, 23, 8, 36, 'Twin (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (49, 1, 81, 6, 26, 'Double (Bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (50, 1, 59, 3, 97, 'Sofa Bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (51, 2, 85, 9, 98, 'Futon Mat')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (52, 2, 58, 6, 40, 'Double (Bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (53, 2, 78, 6, 62, 'Double (Bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (54, 2, 38, 5, 62, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (55, 2, 21, 8, 12, 'Futon Mat')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (56, 2, 95, 9, 31, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (57, 2, 68, 6, 16, 'Large Double [Queen size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (58, 2, 67, 5, 69, 'Double (Bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (59, 2, 37, 7, 60, 'Sofa Bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (60, 1, 97, 2, 44, 'Double (Bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (61, 2, 27, 3, 14, 'Futon Mat')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (62, 1, 20, 8, 8, 'Twin (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (63, 2, 69, 3, 83, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (64, 2, 22, 4, 60, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (65, 1, 85, 3, 69, 'Large Double [Queen size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (66, 2, 81, 1, 35, 'Twin (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (67, 1, 46, 10, 70, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (68, 1, 39, 10, 93, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (69, 2, 93, 9, 69, 'Large Double [Queen size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (70, 2, 81, 3, 92, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (71, 1, 94, 6, 16, 'Futon Mat')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (72, 1, 87, 1, 16, 'Sofa Bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (73, 2, 38, 3, 56, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (74, 2, 66, 7, 6, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (75, 2, 91, 5, 88, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (76, 2, 39, 10, 52, 'Single (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (77, 1, 61, 3, 12, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (78, 1, 20, 5, 48, 'Twin (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (79, 2, 48, 4, 75, 'Single (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (80, 1, 99, 1, 79, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (81, 1, 81, 5, 7, 'Futon Mat')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (82, 1, 99, 8, 69, 'Twin (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (83, 2, 58, 1, 84, 'Single (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (84, 1, 41, 10, 36, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (85, 1, 89, 4, 83, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (86, 1, 17, 1, 15, 'Futon Mat')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (87, 1, 55, 8, 17, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (88, 2, 83, 4, 60, 'Large Double [Queen size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (89, 2, 37, 1, 30, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (90, 1, 92, 1, 91, 'Single (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (91, 2, 84, 1, 59, 'Bunk bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (92, 1, 63, 7, 48, 'Double (Bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (93, 2, 27, 1, 66, 'Large Double [Queen size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (94, 2, 20, 4, 1, 'Sofa Bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (95, 2, 91, 5, 68, 'Twin (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (96, 1, 53, 2, 66, 'Twin (bed)')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (97, 2, 48, 2, 77, 'Sofa Bed')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (98, 2, 65, 1, 39, 'Extra large Double [King size]')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (99, 2, 96, 4, 44, 'Futon Mat')
+
+INSERT INTO [ckaram01].[RoomType] ([RoomType], [NumberOfSubrooms], [Size], [MaximumNumberOfGuests], [property_ID], [TypeName]) VALUES (100, 2, 86, 10, 90, 'Bunk bed')
+
+
+
+
+
