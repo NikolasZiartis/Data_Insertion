@@ -704,9 +704,9 @@ INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Las
 INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (1002, 'nziart01', 'abcz', 'Nic', 'Zartin', '2002-03-14', 'M', 1, '+35796896931');
 
 
-INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (7984, 'susan160', '9gFQxd1R', 'Susan', 'Davis', '1991-01-12', 'M', 3, '+2983598832');
-INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (3981, 'william826', 'fvWjWHTT', 'William', 'Brown', '2000-05-26', 'M', 3, '+5859790295');
-INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (8127, 'sarah920', 'qMc4F3sB', 'Sarah', 'Brown', '1971-08-19', 'M', 3, '+2506288000');
+INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (7984, 'susan160', '9gFQxd1R', 'Susan', 'Davis', '1991-01-12', 'M', 2, '+2983598832');
+INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (3981, 'william826', 'fvWjWHTT', 'William', 'Brown', '2000-05-26', 'M', 2, '+5859790295');
+INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (8127, 'sarah920', 'qMc4F3sB', 'Sarah', 'Brown', '1971-08-19', 'M', 2, '+2506288000');
 INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (9455, 'richard374', 'PwoFNcm8', 'Richard', 'Davis', '1995-12-16', 'M', 3, '+2476789248');
 INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (1563, 'john263', 'HiOTaJJB', 'John', 'Smith', '1999-02-09', 'M', 3, '+6894851018');
 INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (1857, 'james811', 'gQ66LmYF', 'James', 'Jones', '1974-08-08', 'M', 3, '+8679159436');
@@ -804,10 +804,6 @@ INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Las
 INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (2791, 'michael901', 'Hx8YPkKo', 'Michael', 'Rodriguez', '1980-05-11', 'M', 3, '+4205980848');
 INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (5674, 'joseph476', 'cHu6rNzb', 'Joseph', 'Williams', '1973-08-15', 'F', 3, '+8792611354');
 INSERT INTO [ckaram01].[Users] ([ID], [Username], [Password], [First Name], [Last Name], [BirthDate], [Sex], [RoleID], [PhoneNumber]) VALUES (2204, 'patricia423', 'Q0Lgqa0s', 'Patricia', 'Garcia', '1989-04-19', 'M', 3, '+4763716999');
-
-
-
-
 
 
 
