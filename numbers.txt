@@ -1,4 +1,6 @@
-(1, 'Valid Restriction 1', 1),
+INSERT INTO [ckaram01].[StockRestrictions] ([StockRestrictionID], [Description], [Stock_ID])
+VALUES
+    (1, 'Valid Restriction 1', 1),
     (2, 'Valid Restriction 2', 2),
     (3, 'Valid Restriction 3', 3),
     (4, 'Valid Restriction 4', 4),
