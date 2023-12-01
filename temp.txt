@@ -2445,3 +2445,27 @@ INSERT INTO [ckaram01].[JunctionRoomLuxuries] ([junctionRL_ID], [room_type_id], 
 INSERT INTO [ckaram01].[JunctionRoomLuxuries] ([junctionRL_ID], [room_type_id], [luxury_ID]) VALUES (999, 58, 5029)
 INSERT INTO [ckaram01].[JunctionRoomLuxuries] ([junctionRL_ID], [room_type_id], [luxury_ID]) VALUES (1000, 8, 117)
 
+
+
+
+
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (1, 'Basic Economy', 1, NULL, 337.65)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (2, 'Standard Flex', 1, NULL, 785.76)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (3, 'Premium', 0, NULL, 593.95)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (4, 'Deluxe Suite', 1, 3, 29.64)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (5, 'Business Class', 0, NULL, 673.45)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (6, 'Family Value Pack', 0, 4, 442.12)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (7, 'Seasonal Special', 1, NULL, 678.06)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (8, 'Early Bird', 0, NULL, 837.02)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (9, 'Last Minute Deal', 0, 4, 737.25)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (10, 'Weekend Getaway', 0, 9, 140.94)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (11, 'Holiday Offer', 1, 2, 249.86)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (12, 'Off-Peak Discount', 1, 12, 137.92)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (13, 'Corporate Rate', 0, 12, 848.7)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (14, 'Student Budget', 1, NULL, 213.38)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (15, 'Senior Savings', 0, NULL, 298.0)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (16, 'Group Package', 0, NULL, 630.11)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (17, 'Loyalty Reward', 0, 3, 988.29)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (18, 'All-Inclusive', 1, NULL, 958.27)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (19, 'Customizable Plan', 1, NULL, 94.29)
+INSERT INTO [ckaram01].[PriceCategory] ([CategoryID], [Name], [Refundable], [SubCategoryID], [Price]) VALUES (20, 'Non-Refundable Special', 1, 5, 838.09)
