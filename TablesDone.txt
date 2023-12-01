@@ -6,3 +6,4 @@ Restrictions✔
 RoomLuxuries✔ 
 Users✔
 Terms✔
+Property✔
