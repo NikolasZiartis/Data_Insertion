@@ -19,5 +19,5 @@ PropertyChanges --entha to simplirosoume
 Reservations 
 Reviews
 Stock✔
-StockRestrictions
+StockRestrictions✔
 TempUnavailableProducts
