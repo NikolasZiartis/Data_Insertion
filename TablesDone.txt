@@ -17,3 +17,4 @@ PriceCategory✔
 Product✔
 PropertyChanges --entha to simplirosoume
 Reservations --entha to simplirosoume
+Reviews --entha to simplirosoume
