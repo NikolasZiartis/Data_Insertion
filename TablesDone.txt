@@ -16,3 +16,4 @@ PendingPropertyManagers --entha to simplirosoume
 PriceCategory✔
 Product✔
 PropertyChanges --entha to simplirosoume
+Reservations --entha to simplirosoume
