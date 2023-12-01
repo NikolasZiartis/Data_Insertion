@@ -7,3 +7,4 @@ RoomLuxuries✔
 Users✔
 Terms✔
 Property✔
+JunctionPolicyDeatails✔
