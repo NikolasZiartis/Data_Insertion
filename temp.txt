@@ -3478,3 +3478,88 @@ INSERT INTO [ckaram01].[Product] (ProductID, TermID, CategoryID, RoomTypeID) VAL
 INSERT INTO [ckaram01].[Product] (ProductID, TermID, CategoryID, RoomTypeID) VALUES (998, 18, 10, 46);
 INSERT INTO [ckaram01].[Product] (ProductID, TermID, CategoryID, RoomTypeID) VALUES (999, 70, 12, 91);
 INSERT INTO [ckaram01].[Product] (ProductID, TermID, CategoryID, RoomTypeID) VALUES (1000, 48, 2, 76);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DECLARE @Stock_ID INT = 1;
+DECLARE @Date DATE;
+DECLARE @MaxAppearances TABLE (room_type_id INT, MaxAppearances INT, CurrentAppearances INT DEFAULT 0);
+DECLARE @TotalRows INT = 1000, @CurrentTotalRows INT = 0, @DateRange INT = 14;
+DECLARE @RoomType INT, @MaxForType INT, @CurrentForType INT, @Amount INT;
+DECLARE @StartDate DATE = '2023-12-04', @EndDate DATE = '2023-12-17';
+
+-- Populate the max appearances for each room type
+INSERT INTO @MaxAppearances (room_type_id, MaxAppearances)
+VALUES
+(1, 7), (2, 13), (3, 11), (4, 9), (5, 12), (6, 10), (7, 11), (8, 9), (9, 5), (10, 9),
+(11, 11), (12, 16), (13, 14), (14, 10), (15, 12), (16, 9), (17, 8), (18, 10), (19, 8), (20, 11),
+(21, 8), (22, 6), (23, 6), (24, 14), (25, 13), (26, 10), (27, 13), (28, 12), (29, 8), (30, 9),
+(31, 12), (32, 14), (33, 8), (34, 12), (35, 9), (36, 11), (37, 11), (38, 10), (39, 10), (40, 8),
+(41, 6), (42, 15), (43, 6), (44, 9), (45, 5), (46, 10), (47, 13), (48, 8), (49, 8), (50, 13),
+(51, 9), (52, 14), (53, 8), (54, 14), (55, 4), (56, 11), (57, 10), (58, 7), (59, 9), (60, 11),
+(61, 10), (62, 13), (63, 11), (64, 8), (65, 14), (66, 11), (67, 8), (68, 17), (69, 9), (70, 6),
+(71, 8), (72, 8), (73, 12), (74, 12), (75, 10), (76, 9), (77, 10), (78, 8), (79, 15), (80, 10),
+(81, 11), (82, 13), (83, 12), (84, 8), (85, 10), (86, 9), (87, 8), (88, 16), (89, 9), (90, 9),
+(91, 9), (92, 9), (93, 6), (94, 2), (95, 11), (96, 12), (97, 7), (98, 9), (99, 14), (100, 8);
+-- ... [Your previous INSERT INTO @MaxAppearances code here] ...
+
+-- Loop through each room type and insert or update rows
+WHILE @CurrentTotalRows < @TotalRows
+BEGIN
+    DECLARE room_cursor CURSOR FOR
+    SELECT room_type_id, MaxAppearances, CurrentAppearances FROM @MaxAppearances WHERE CurrentAppearances < MaxAppearances;
+
+    OPEN room_cursor;
+    FETCH NEXT FROM room_cursor INTO @RoomType, @MaxForType, @CurrentForType;
+
+    WHILE @@FETCH_STATUS = 0
+    BEGIN
+        -- Generate a random date between @StartDate and @EndDate
+        SET @Date = DATEADD(DAY, CAST(RAND() * @DateRange AS INT), @StartDate);
+
+        -- Check if a row with the same date and room type already exists
+        IF EXISTS (SELECT 1 FROM [ckaram01].[Stock] WHERE [room_type_id] = @RoomType AND [Available Date] = @Date)
+        BEGIN
+            -- Update the amount for the existing row
+            UPDATE [ckaram01].[Stock]
+            SET [Amount] = [Amount] + 1
+            WHERE [room_type_id] = @RoomType AND [Available Date] = @Date;
+        END
+        ELSE
+        BEGIN
+            -- Insert a new row
+            INSERT INTO [ckaram01].[Stock] ([Stock_ID], [Amount], [Available Date], [room_type_id])
+            VALUES (@Stock_ID, 1, @Date, @RoomType);
+           
+            SET @Stock_ID = @Stock_ID + 1;
+        END
+
+        -- Update counters
+        SET @CurrentTotalRows = @CurrentTotalRows + 1;
+        UPDATE @MaxAppearances SET CurrentAppearances = CurrentAppearances + 1 WHERE room_type_id = @RoomType;
+
+        -- Break if total rows reached
+        IF @CurrentTotalRows >= @TotalRows
+            BREAK;
+
+        FETCH NEXT FROM room_cursor INTO @RoomType, @MaxForType, @CurrentForType;
+    END
+
+    CLOSE room_cursor;
+    DEALLOCATE room_cursor;
+
+    -- Break the outer loop if total rows reached
+    IF @CurrentTotalRows >= @TotalRows
+        BREAK;
+END
