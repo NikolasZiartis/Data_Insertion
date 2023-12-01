@@ -11,3 +11,4 @@ JunctionPolicyDeatails✔
 JunctionPropertyServices✔
 RoomType✔
 JunctionRoomLuxuries✔
+PassedReservations --entha to simplirosoume
